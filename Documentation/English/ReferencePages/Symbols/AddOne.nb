@@ -36,7 +36,7 @@ Notebook[
       CellID -> 544054244
      ],
      Cell[
-      "MyPublisher/MyPaclet",
+      "MyPublisher/WrongPacletName",
       "Categorization",
       CellLabel -> "Paclet Name",
       CellID -> 49967430

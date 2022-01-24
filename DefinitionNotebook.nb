@@ -1560,7 +1560,7 @@ Notebook[
              "Initialization for Examples",
              "TemplateCellGroup"
             },
-            CellLabel -> "In[6]:=",
+            CellLabel -> "In[1]:=",
             CellID -> 844085818
            ],
            Cell[
@@ -1718,11 +1718,11 @@ Notebook[
            Cell[
             "Basic Examples",
             "Subsection",
-            CellLabel -> "In[44]:=",
+            CellLabel -> "In[3]:=",
             CellID -> 462042388
            ],
            Cell[
-            "Here is a basic example:",
+            "Here is a basic example",
             "Text",
             CellTags -> "DefaultContent",
             CellID -> 319073343
@@ -1734,15 +1734,15 @@ Notebook[
                BoxData[RowBox[{"AddOne", "[", "1", "]"}]],
                "Input",
                CellTags -> "DefaultContent",
-               CellLabel -> "In[3]:=",
+               CellLabel -> "In[1]:=",
                CellID -> 469682135
               ],
               Cell[
                BoxData["2"],
                "Output",
                CellTags -> "DefaultContent",
-               CellLabel -> "Out[3]=",
-               CellID -> 158170412
+               CellLabel -> "Out[1]=",
+               CellID -> 427518414
               ]
              },
              Open
@@ -1771,35 +1771,28 @@ Notebook[
                CellGroupData[
                 {
                  Cell[
-                  BoxData[RowBox[{"AddOne", "[", "1", "]"}]],
+                  BoxData[
+                   {
+                    RowBox[{"AddOne", "[", "1", "]"}],
+                    "\[IndentingNewLine]",
+                    RowBox[{"AddTwo", "[", "1", "]"}]
+                   }
+                  ],
                   "Input",
-                  CellLabel -> "In[4]:=",
+                  CellLabel -> "In[1]:=",
                   CellID -> 55333842
                  ],
                  Cell[
                   BoxData["2"],
                   "Output",
-                  CellLabel -> "Out[4]=",
-                  CellID -> 452772455
-                 ]
-                },
-                Open
-               ]
-              ],
-              Cell[
-               CellGroupData[
-                {
-                 Cell[
-                  BoxData[RowBox[{"AddTwo", "[", "1", "]"}]],
-                  "Input",
-                  CellLabel -> "In[5]:=",
-                  CellID -> 94492216
+                  CellLabel -> "Out[1]=",
+                  CellID -> 243341066
                  ],
                  Cell[
                   BoxData["3"],
                   "Output",
-                  CellLabel -> "Out[5]=",
-                  CellID -> 134009287
+                  CellLabel -> "Out[2]=",
+                  CellID -> 19004399
                  ]
                 },
                 Open
@@ -1892,7 +1885,7 @@ Notebook[
             },
             CellID -> 57534933
            ],
-           Cell["Example Creator", "Text", CellID -> 312969925]
+           Cell["Example Author", "Text", CellID -> 312969925]
           },
           Open
          ]
@@ -3593,8 +3586,8 @@ Notebook[
   "ResourceType" -> "Paclet",
   "ResourceCreateNotebook" -> True,
   "TemplateVersion" -> "1.5.53",
-  "CreationTimestamp" -> 3852038786.7229432,
-  "UpdatedTimestamp" -> 3852038786.7229432,
+  "CreationTimestamp" -> 3852038787.,
+  "UpdatedTimestamp" -> 3852038787.,
   "CompatibilityTest" -> HoldComplete[
    BinaryDeserialize[
     BaseDecode[

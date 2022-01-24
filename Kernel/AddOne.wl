@@ -1,4 +1,4 @@
-BeginPackage["MyPublisher`MyPaclet`"];
+BeginPackage["MyPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
