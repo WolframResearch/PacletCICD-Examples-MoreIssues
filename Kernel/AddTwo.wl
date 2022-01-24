@@ -10,9 +10,6 @@ Begin["`Private`"];
 
 AddTwo[x_] := x + 2;
 
-(* This should get flagged as an issue: *)
-If[a, b, b]
-
 End[]; (* End `Private` *)
 
 EndPackage[];
