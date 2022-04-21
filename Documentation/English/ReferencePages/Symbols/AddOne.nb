@@ -36,19 +36,19 @@ Notebook[
       CellID -> 544054244
      ],
      Cell[
-      "MyPublisher/WrongPacletName",
+      "SamplePublisher/WrongPacletName",
       "Categorization",
       CellLabel -> "Paclet Name",
       CellID -> 49967430
      ],
      Cell[
-      "MyPublisher`MyPaclet`",
+      "SamplePublisher`MyPaclet`",
       "Categorization",
       CellLabel -> "Context",
       CellID -> 559698399
      ],
      Cell[
-      "MyPublisher/MyPaclet/ref/AddOne",
+      "SamplePublisher/MyPaclet/ref/AddOne",
       "Categorization",
       CellLabel -> "URI",
       CellID -> 153856858
@@ -117,7 +117,7 @@ Notebook[
             ButtonBox[
              "AddOne",
              BaseStyle -> "Link",
-             ButtonData -> "paclet:MyPublisher/MyPaclet/ref/AddOne"
+             ButtonData -> "paclet:SamplePublisher/MyPaclet/ref/AddOne"
             ],
             "[",
             StyleBox["x", "TI"],
@@ -230,7 +230,9 @@ Notebook[
      ],
      Cell[
       BoxData[
-       RowBox[{"Needs", "[", "\"MyPublisher`MyPaclet`\"", "]"}]
+       RowBox[
+        {"Needs", "[", "\"SamplePublisher`MyPaclet`\"", "]"}
+       ]
       ],
       "Input",
       CellLabel -> "In[2]:=",

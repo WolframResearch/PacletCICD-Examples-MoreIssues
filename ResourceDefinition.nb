@@ -4,7 +4,7 @@ Notebook[
    CellGroupData[
     {
      Cell[
-      "MyPublisher/MyPaclet",
+      "SamplePublisher/MyPaclet",
       "Title",
       Deletable -> False,
       CellTags -> {"Name", "TemplateCell", "Title"},
@@ -1049,7 +1049,7 @@ Notebook[
                       ]
                      ]
                     },
-                    Annotation[#1, "Charting`Private`Tag$99030#1"] & 
+                    Annotation[#1, "Charting`Private`Tag$99030#1"] &
                    ]
                   },
                   { }
@@ -1837,7 +1837,7 @@ Notebook[
             },
             CellID -> 57534933
            ],
-           Cell["Example Author", "Text", CellID -> 312969925]
+           Cell["Sample Author", "Text", CellID -> 312969925]
           },
           Open
          ]
