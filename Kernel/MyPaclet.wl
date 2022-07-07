@@ -3,4 +3,7 @@ If[a, b, b]
 <<SamplePublisher`MyPaclet`AddOne`
 <<SamplePublisher`MyPaclet`AddTwo`
 (* Here's another potential problem: *)
-<|a -> # + 1 &|>
+CirclePlus[ x_, y_ ] := <|x -> # + y &|>;
+
+(* This is just not nice: *)
+Plus = Times;
