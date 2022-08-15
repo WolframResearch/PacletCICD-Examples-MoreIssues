@@ -1,3 +1,11 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* Created By: SaveReadableNotebook *)
+(* https://resources.wolframcloud.com/FunctionRepository/resources/SaveReadableNotebook *)
+
 Notebook[
  {
   Cell[
@@ -222,7 +230,6 @@ Notebook[
          }
         ],
         $Line = 0;
-        Null
        ]
       ],
       "PrimaryExamplesSection",
@@ -280,7 +287,6 @@ Notebook[
        InterpretationBox[
         Cell["Scope", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -291,7 +297,6 @@ Notebook[
        InterpretationBox[
         Cell["Generalizations & Extensions", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -305,7 +310,6 @@ Notebook[
           InterpretationBox[
            Cell["Options", "ExampleSection"],
            $Line = 0;
-           Null
           ]
          ],
          "ExampleSection",
@@ -316,7 +320,6 @@ Notebook[
           InterpretationBox[
            Cell["XXXX", "ExampleSubsection"],
            $Line = 0;
-           Null
           ]
          ],
          "ExampleSubsection",
@@ -327,7 +330,6 @@ Notebook[
           InterpretationBox[
            Cell["XXXX", "ExampleSubsection"],
            $Line = 0;
-           Null
           ]
          ],
          "ExampleSubsection",
@@ -342,7 +344,6 @@ Notebook[
        InterpretationBox[
         Cell["Applications", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -353,7 +354,6 @@ Notebook[
        InterpretationBox[
         Cell["Properties & Relations", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -364,7 +364,6 @@ Notebook[
        InterpretationBox[
         Cell["Possible Issues", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -375,7 +374,6 @@ Notebook[
        InterpretationBox[
         Cell["Interactive Examples", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -386,7 +384,6 @@ Notebook[
        InterpretationBox[
         Cell["Neat Examples", "ExampleSection"],
         $Line = 0;
-        Null
        ]
       ],
       "ExampleSection",
@@ -403,10 +400,11 @@ Notebook[
  |>,
  CellContext -> "Global`",
  FrontEndVersion -> "13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
- StyleDefinitions -> FrontEnd`FileName[
-  {"Wolfram"},
-  "FunctionPageStylesExt.nb",
-  CharacterEncoding -> "UTF-8"
- ],
+ StyleDefinitions ->
+  FrontEnd`FileName[
+   {"Wolfram"},
+   "FunctionPageStylesExt.nb",
+   CharacterEncoding -> "UTF-8"
+  ],
  ExpressionUUID -> "b7690d1b-06de-49d4-a254-41f33c59b937"
 ]
